@@ -36,7 +36,7 @@ contract SpaceDAO is ERC1155, Pausable, Ownable, ReentrancyGuard {
    * updates the number of tokens for sale
    */
   function setPaidTokens(uint256 _paidTokens) external onlyOwner {
-    PAID_TOKENS = _paidTokens;
+    //PAID_TOKENS = _paidTokens;
   }
 
   /**
